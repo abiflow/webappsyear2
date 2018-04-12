@@ -42,7 +42,7 @@ Seq[Any](format.raw/*1.18*/("""
               that area of the continent located at the Western part of Africa.
 
 
-<img src=""""),_display_(/*13.12*/routes/*13.18*/.Assets.versioned("images/photo/spaces.png")),format.raw/*13.62*/("""" alt" ofiice picture"/>
+<img src=""""),_display_(/*13.12*/routes/*13.18*/.Assets.versioned("images/photo/spaces.png")),format.raw/*13.62*/("""" alt" office picture"/>
 
        
 
@@ -69,7 +69,14 @@ Seq[Any](format.raw/*1.18*/("""
 <li>Dublin 2, Ireland.</li>
 </ul>
 
-
+    
+<div class="footer text-center">
+    <p>Back to <a href=""""),_display_(/*42.26*/routes/*42.32*/.HomeController.index()),format.raw/*42.55*/("""">Home Page </a></p>
+      <ul "right-side" class="pager">
+       <li><a href=""""),_display_(/*44.22*/routes/*44.28*/.HomeController.membership()),format.raw/*44.56*/("""">Previous</a></li>
+        <li><a href=""""),_display_(/*45.23*/routes/*45.29*/.HomeController.playtime()),format.raw/*45.55*/("""">Next</a></li>
+      </ul>
+    </div>
 
 """)))}))
       }
@@ -87,11 +94,11 @@ Seq[Any](format.raw/*1.18*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Thu Apr 12 16:57:26 IST 2018
+                  DATE: Thu Apr 12 21:27:57 IST 2018
                   SOURCE: /home/wdd/webapps/webappsyear2/app/views/contact.scala.html
-                  HASH: c6352f20d4c61d1bd82901b8ebe5f1862d858304
-                  MATRIX: 950->1|1061->17|1090->21|1116->39|1155->41|1188->48|1638->471|1653->477|1718->521|1790->566|1805->572|1926->671|1989->707|2004->713|2070->758|2147->808|2162->814|2260->891
-                  LINES: 28->1|33->1|35->3|35->3|35->3|38->6|45->13|45->13|45->13|49->17|49->17|49->17|50->18|50->18|50->18|53->21|53->21|53->21
+                  HASH: b64894b7bbf932f7a88742ef731eef530c28b88d
+                  MATRIX: 950->1|1061->17|1090->21|1116->39|1155->41|1188->48|1638->471|1653->477|1718->521|1790->566|1805->572|1926->671|1989->707|2004->713|2070->758|2147->808|2162->814|2260->891|2859->1463|2874->1469|2918->1492|3025->1572|3040->1578|3089->1606|3158->1648|3173->1654|3220->1680
+                  LINES: 28->1|33->1|35->3|35->3|35->3|38->6|45->13|45->13|45->13|49->17|49->17|49->17|50->18|50->18|50->18|53->21|53->21|53->21|74->42|74->42|74->42|76->44|76->44|76->44|77->45|77->45|77->45
                   -- GENERATED --
               */
           

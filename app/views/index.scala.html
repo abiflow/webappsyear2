@@ -1,13 +1,14 @@
 @(message:String) 
 
 @main("Home Page") {
-  <link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/books.css")">
+  
+
 <div class="list">
   <a href="@routes.HomeController.playtime()" Kids target="_blank">
-    <img src="@routes.Assets.versioned("images/photo/childLaugh.png")"alt=" kids having fun" />
+    <img src="@routes.Assets.versioned("images/photo/ChildLaugh.png")"alt=" kids having fun" />
   </a>
   <a href="@routes.HomeController.contact()" Contact Us target="_blank">
-    <img src="@routes.Assets.versioned("images/photo/readingculture1.png")" alt="children reading" />
+    <img src="@routes.Assets.versioned("images/photo/readingculture.png")" alt="children reading" />
   </a>
   <a href="@routes.HomeController.requestforbooks()" TwoforBooks target="_blank">
     <img src="@routes.Assets.versioned("images/photo/donatebanner.png")" alt="donation" />
@@ -30,13 +31,15 @@
     <ul>
       <li>
         <a href=" @routes.Assets.versioned("images/photo/http://www.nigeriahc.org.uk/culture-tourism")">Explore History</a>
-       
+        <img src="@routes.Assets.versioned("images/photo/shelf.png")" alt="book shelf" />
       </li>
       <li>
         <a href="@routes.HomeController.requestforbooks()">Request For Books</a>
+        <img src="@routes.Assets.versioned("images/photo/kidsbooks.png")" alt="children showing reading books" />
       </li>
       <li>
         <a href="@routes.HomeController.morenike's Corner()">Morenike's Corner</a>
+        <img src="@routes.Assets.versioned("images/photo/spe.png")" alt="picture speech head" />
       </li>
     </ul>
   </div>

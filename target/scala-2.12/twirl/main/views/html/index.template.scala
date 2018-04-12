@@ -33,16 +33,17 @@ object index extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
 Seq[Any](format.raw/*1.18*/(""" 
 
 """),_display_(/*3.2*/main("Home Page")/*3.19*/ {_display_(Seq[Any](format.raw/*3.21*/("""
-  """),format.raw/*4.3*/("""<link rel="stylesheet" href=""""),_display_(/*4.33*/routes/*4.39*/.Assets.versioned("stylesheets/books.css")),format.raw/*4.81*/("""">
-<div class="list">
-  <a href=""""),_display_(/*6.13*/routes/*6.19*/.HomeController.playtime()),format.raw/*6.45*/("""" Kids target="_blank">
-    <img src=""""),_display_(/*7.16*/routes/*7.22*/.Assets.versioned("images/photo/childLaugh.png")),format.raw/*7.70*/(""""alt=" kids having fun" />
+  
+
+"""),format.raw/*6.1*/("""<div class="list">
+  <a href=""""),_display_(/*7.13*/routes/*7.19*/.HomeController.playtime()),format.raw/*7.45*/("""" Kids target="_blank">
+    <img src=""""),_display_(/*8.16*/routes/*8.22*/.Assets.versioned("images/photo/ChildLaugh.png")),format.raw/*8.70*/(""""alt=" kids having fun" />
   </a>
-  <a href=""""),_display_(/*9.13*/routes/*9.19*/.HomeController.contact()),format.raw/*9.44*/("""" Contact Us target="_blank">
-    <img src=""""),_display_(/*10.16*/routes/*10.22*/.Assets.versioned("images/photo/readingculture1.png")),format.raw/*10.75*/("""" alt="children reading" />
+  <a href=""""),_display_(/*10.13*/routes/*10.19*/.HomeController.contact()),format.raw/*10.44*/("""" Contact Us target="_blank">
+    <img src=""""),_display_(/*11.16*/routes/*11.22*/.Assets.versioned("images/photo/readingculture.png")),format.raw/*11.74*/("""" alt="children reading" />
   </a>
-  <a href=""""),_display_(/*12.13*/routes/*12.19*/.HomeController.requestforbooks()),format.raw/*12.52*/("""" TwoforBooks target="_blank">
-    <img src=""""),_display_(/*13.16*/routes/*13.22*/.Assets.versioned("images/photo/donatebanner.png")),format.raw/*13.72*/("""" alt="donation" />
+  <a href=""""),_display_(/*13.13*/routes/*13.19*/.HomeController.requestforbooks()),format.raw/*13.52*/("""" TwoforBooks target="_blank">
+    <img src=""""),_display_(/*14.16*/routes/*14.22*/.Assets.versioned("images/photo/donatebanner.png")),format.raw/*14.72*/("""" alt="donation" />
   </a>
 
 
@@ -61,14 +62,16 @@ Seq[Any](format.raw/*1.18*/("""
 
     <ul>
       <li>
-        <a href=" """),_display_(/*32.20*/routes/*32.26*/.Assets.versioned("images/photo/http://www.nigeriahc.org.uk/culture-tourism")),format.raw/*32.103*/("""">Explore History</a>
-       
+        <a href=" """),_display_(/*33.20*/routes/*33.26*/.Assets.versioned("images/photo/http://www.nigeriahc.org.uk/culture-tourism")),format.raw/*33.103*/("""">Explore History</a>
+        <img src=""""),_display_(/*34.20*/routes/*34.26*/.Assets.versioned("images/photo/shelf.png")),format.raw/*34.69*/("""" alt="book shelf" />
       </li>
       <li>
-        <a href=""""),_display_(/*36.19*/routes/*36.25*/.HomeController.requestforbooks()),format.raw/*36.58*/("""">Request For Books</a>
+        <a href=""""),_display_(/*37.19*/routes/*37.25*/.HomeController.requestforbooks()),format.raw/*37.58*/("""">Request For Books</a>
+        <img src=""""),_display_(/*38.20*/routes/*38.26*/.Assets.versioned("images/photo/kidsbooks.png")),format.raw/*38.73*/("""" alt="children showing reading books" />
       </li>
       <li>
-        <a href=""""),_display_(/*39.19*/routes/*39.25*/.HomeController.morenike),format.raw/*39.49*/("""'s Corner()">Morenike's Corner</a>
+        <a href=""""),_display_(/*41.19*/routes/*41.25*/.HomeController.morenike),format.raw/*41.49*/("""'s Corner()">Morenike's Corner</a>
+        <img src=""""),_display_(/*42.20*/routes/*42.26*/.Assets.versioned("images/photo/spe.png")),format.raw/*42.67*/("""" alt="picture speech head" />
       </li>
     </ul>
   </div>
@@ -88,11 +91,11 @@ Seq[Any](format.raw/*1.18*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Thu Apr 12 17:42:48 IST 2018
+                  DATE: Thu Apr 12 21:21:15 IST 2018
                   SOURCE: /home/wdd/webapps/webappsyear2/app/views/index.scala.html
-                  HASH: 8e242505112871b945f5b95e402347ce84f368a2
-                  MATRIX: 948->1|1059->17|1088->21|1113->38|1152->40|1181->43|1237->73|1251->79|1313->121|1373->155|1387->161|1433->187|1498->226|1512->232|1580->280|1652->326|1666->332|1711->357|1783->402|1798->408|1872->461|1946->508|1961->514|2015->547|2088->593|2103->599|2174->649|3026->1474|3041->1480|3140->1557|3238->1628|3253->1634|3307->1667|3399->1732|3414->1738|3459->1762
-                  LINES: 28->1|33->1|35->3|35->3|35->3|36->4|36->4|36->4|36->4|38->6|38->6|38->6|39->7|39->7|39->7|41->9|41->9|41->9|42->10|42->10|42->10|44->12|44->12|44->12|45->13|45->13|45->13|64->32|64->32|64->32|68->36|68->36|68->36|71->39|71->39|71->39
+                  HASH: af6e3170451a21b2ab0f840e26ce6c01b1ceddff
+                  MATRIX: 948->1|1059->17|1088->21|1113->38|1152->40|1183->45|1240->76|1254->82|1300->108|1365->147|1379->153|1447->201|1520->247|1535->253|1581->278|1653->323|1668->329|1741->381|1815->428|1830->434|1884->467|1957->513|1972->519|2043->569|2895->1394|2910->1400|3009->1477|3077->1518|3092->1524|3156->1567|3246->1630|3261->1636|3315->1669|3385->1712|3400->1718|3468->1765|3578->1848|3593->1854|3638->1878|3719->1932|3734->1938|3796->1979
+                  LINES: 28->1|33->1|35->3|35->3|35->3|38->6|39->7|39->7|39->7|40->8|40->8|40->8|42->10|42->10|42->10|43->11|43->11|43->11|45->13|45->13|45->13|46->14|46->14|46->14|65->33|65->33|65->33|66->34|66->34|66->34|69->37|69->37|69->37|70->38|70->38|70->38|73->41|73->41|73->41|74->42|74->42|74->42
                   -- GENERATED --
               */
           

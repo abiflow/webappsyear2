@@ -6,7 +6,14 @@ body,html{
     margin:0;
     padding:1%;
 	width:100%;
-	height:100%;
+    height:100%;
+    background-color:burlywood;
+
+}
+
+p{
+
+    color:black;
 
 }
 
@@ -17,7 +24,7 @@ html{
 img{
    width:32%;
    padding-left:.1em;
-   border-radius:100%;  
+   border-radius:15%;  
 }
 
 header{
@@ -30,9 +37,10 @@ background-position:center center;
 h1{
      color:green;
       padding-left:15%;
+      background-color:orangered
      
  }
-.nav{
+ .nav{
     width:100%;
 	height:100%;
     padding-top:8em;
@@ -68,7 +76,7 @@ box-sizing: border-box;
     /*margin-top: 2%;
     padding: 2%;*/
 	font-weight: bold;
-	color:#ffffff;
+	color:blue;
 	border-radius: 15%;
 	border:1em solid orange;
     height:1em;
@@ -78,8 +86,9 @@ box-sizing: border-box;
 .links bold:hover{
     background-color:#0099cc;
 	float:left;
-	width: 100%;
-	height:100%;
+	width:auto;
+    height: auto;
+
 	
 }
 .img{
@@ -96,7 +105,7 @@ height:12%;
     padding: 0.5em;
     margin-bottom: 0.5em;
     background-color: #33b5e5;
-    color: #ffffff;
+    color: #7a1212;
     box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 	float:left;	
 }
@@ -108,7 +117,7 @@ clear:left;
 } 
  
 .payment{
- width:100%;
+width:100%;
 float:left;
 clear:left;
 list-style-type:none;
@@ -122,7 +131,8 @@ list-style-type:none;
 }
 
 .links{
-    width:100%;
+    width:auto;
+    height:auto;
     padding:5em;
 	margin:5%;
 	padding-top:.1em;
@@ -135,12 +145,14 @@ list-style-type:none;
 
 float:right;
 padding:0 2%;
-border:1em solid orange;
+border:6em solid orange;
 margin:5em;
-width:100%;
+font-size:18pt; 
+
+border-width: large;
 }
 .don_text{
- width:100%;
+width:100%;
 float:left;
 clear:left;
 padding-top:.2em;
@@ -165,19 +177,21 @@ clear:left;
 font-family:Helvetica, Arial, sans-serif; 
 color: DarkSlateGray;
 }
+
 .row{
-	padding-top:1em;
-    padding-bottom:1em;
+
+    padding-bottom:3em;
     padding-right:2em;
 	margin:1em;
 	width:full;
-    height:10em; 	
+    height:10em; 
+    padding-top:.1em;	
 }
   
 .list{
    
     padding-top:1em;
-    padding-bottom:1em;
+    padding-bottom:15em;
     padding-left:.1em;
 	margin:1em;
 	width:100%;
@@ -212,7 +226,7 @@ color: DarkSlateGray;
 
 p{
 font-family: Helvetica, Arial, sans-serif; 
-color: DarkSlateGray;
+color: black;
 width:100%;
 }
 
@@ -221,8 +235,13 @@ width:100%;
    left:0;
    bottom:0;
    width:100%;
-   color:white;
- 
+   color:rgba(19, 17, 17, 0.089);
 }
-
+footer{
+    text-align: center;
+    clear:right;
+    padding-bottom: 2em;
+ 
+  
+ }
  
