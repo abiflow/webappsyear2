@@ -1,0 +1,110 @@
+@* * This template is called from the `index` template. This template * handles the rendering of the page header and body
+tags. It takes * two arguments, a `String` for the title of the page and an `Html` * object to insert into the body of the
+page. 
+*@ 
+@(title: String)(content: Html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>@title</title>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/books.css")">
+</head>
+ <body>		   
+			   <div class="wrapper">
+				<div class="container-fluid">
+	
+	  <form class="navbar-form navbar-right" action="/action_page.php">
+      <div class="form-group">
+      <a href="membership.html" button type="button" class="glyphicon glyphicon-user btn btn-success">Sign Up </a></button>
+      <a href="bookscategory.html" button type="button" class="btn btn-success">Login </a></button>
+	  <p><br>
+	  <input type="text" class="form-control" placeholder="Search">
+	  
+      
+      <button type="submit" class="btn btn-default">Go</button>
+     </p>
+     </form>
+    </div>
+              
+<header>
+<h1>Books for Schools In Africa <p class ="small">where books are everything</small></h1></p>
+
+<ul class="pagination">
+<h6>Page numbers</h6>    
+<li class="active"><a href="index.html">1</a></li>
+    <li class="active"><a href="aboutus.html">2</a></li>
+    <li class="active"><a href="donation.html">3</a></li>
+    <li class="active"><a href="membership.html">4</a></li>
+    <li class="active"><a href="bookscategory.html">5</a></li>
+	<li class="active"><a href="playtime.html">6</a></li>
+	<li class="active"><a href="https://nmaahc.si.edu/">7</a></li>
+	<li class="active"><a href="Morenike's Corner.html">8</a></li>
+	<li class="active"><a href="contactus.html">9</a></li>
+  </ul>		  
+					  
+  <div class="row">
+  <img src="schoolboy.png" class="img-rounded" alt="schoolboy sitting" width="800" height="236">
+  <img src= "treebook.png" class="img-rounded" alt=" book tree"width="800" height="236">
+  <img src= "outdoor.png" class="img-rounded" alt="children reading without class room"width="800" height="236">
+  
+    </div>     
+   </header>       
+ 
+                          <div class="nav">
+                       <nav role="navigation"> 
+                   <span class="bold"><a href="@routes.HomeController.index()"class="btn btn-success" role="button"> Home</a></span>
+                  <span class="bold"><a href="@routes.HomeController.about()" class="btn btn-success" role="button">About Us</a></span>
+                 <span class="bold"><a href="@routes.HomeController.donation()" class="btn btn-success" role="button"> Donation</a></span>
+                <span class="bold"><a href="@routes.HomeController.membership()" class="btn btn-success" role="button">Membership</a></span> 
+                   <span class="bold"><a href="@routes.HomeController.bookscategory()"class="btn btn-success" role="button" > Book Category</a></span>
+				   <span class="bold"><a href="@routes.HomeController.playtime()"class="btn btn-success" role="button" > Play Time</a></span>
+                  <span class="bold"><a href="https://nmaahc.si.edu/" target="_blank" class="btn btn-success" role="button">My History, Your Story</a></span>
+                    <span class="bold"><a href="@routes.HomeController.morenike()" class="btn btn-success" role="button">Morenikes' Corner</a></span>
+					   <span class="bold"><a href="@routes.HomeController.contact()" class="btn btn-success" role="button"> Contact Us</a></span>
+					   </div>
+					   </nav>
+                       
+            <main>
+                @* And here's where we render the `Html` object containing * the page content. *@ 
+                @content
+
+
+            </main>
+   <hr>
+            <footer>
+         
+            
+                <div class="blank">
+                    <a href="donation.html" MAKE A DONATION target="_blank">
+                   <img src="donatefunds.png" alt="Donate Funds" class="margin"/></a>
+ 
+                  <a href="membership.html" BECOME A MEMBER target = "_blank">
+                 <img src="member.png" alt="Membership" class="margin"/></a>
+                 
+                 <img id="footer" src="thankyou.png" class="margin"alt="thank you picture"/></p>
+                 </div>
+                 
+            
+                 
+                    <p class="text-center"> Please <a href="contactus.html" class="alert-link">contact us </a> to make a difference Today!!!</p>
+                     
+                       
+                 
+            
+                 
+            </footer>
+
+
+
+
+
+
+<script src="@routes.Assets.versioned(" javascripts/main.js ")" type="text/javascript"></script>
+</body>
+</html>
