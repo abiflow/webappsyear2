@@ -43,8 +43,8 @@
                   <div class="links">
                       <ul>
                      <li><a href="https://nmaahc.si.edu/" target="_blank">Explore History</a> </li>
-                      <li><a href="requestforbooks.html">Request For Books</a> </li>
-                       <li><a href="morenike's Corner.html">Morenikes' Corner</a> </li>
+                      <li><a href="@routes.HomeController.requestforbooks()">Request For Books</a> </li>
+                       <li><a href="@routes.HomeController.morenike's Corner()">Morenikes' Corner</a> </li>
                         </ul>  
                         </div>
                 
@@ -123,21 +123,21 @@
     
     
                      <div class="blank">
-                       <a href="donation.html" MAKE A DONATION target="_blank">
-                      <img src="donatefunds.png" alt="Donate Funds" class="margin"/></a>
+                       <a href="@routes.HomeController.donation()" MAKE A DONATION target="_blank">
+                      <img src="@routes.Assets.versioned("images/photo/donatefunds.png")" alt="Donate Funds" class="margin"/></a>
     
-                     <a href="membership.html" BECOME A MEMBER target = "_blank">
-                    <img src="member.png" alt="Membership" class="margin"/></a>
+                     <a href="@routes.HomeController.membership()" BECOME A MEMBER target = "_blank">
+                    <img src="@routes.Assets.versioned("images/photo/member.png")" alt="Membership" class="margin"/></a>
                     
-                    <img id="footer" src="thankyou.png" class="margin"alt="thank you picture"/></p>
+                    <img id="footer" src="@routes.Assets.versioned("images/photo/thankyou.png")" class="margin"alt="thank you picture"/></p>
                     </div>
             
         
     <div class="footer text-center">
-    <p>Back to <a href="index.html">Home Page </a></p>
+    <p>Back to <a href="@routes.HomeController.index()">Home Page </a></p>
       <ul class="pager">
-       <li class="previous"><a href="membership.html">Previous</a></li>
-        <li class="next"><a href="playtime.html">Next</a></li>
+       <li class="previous"><a href="@routes.HomeController.membership()">Previous</a></li>
+        <li class="next"><a href="@routes.HomeController.playtime()">Next</a></li>
       </ul>
     </div>
             

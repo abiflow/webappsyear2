@@ -33,7 +33,7 @@ object membership extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api
 Seq[Any](format.raw/*1.18*/(""" 
  """),_display_(/*2.3*/main("membership")/*2.21*/ {_display_(Seq[Any](format.raw/*2.23*/("""
 
-"""),format.raw/*4.1*/("""<img src="registr.png" alt="Registration" />
+"""),format.raw/*4.1*/("""<img src=""""),_display_(/*4.12*/routes/*4.18*/.Assets.versioned("images/photo/registr.png")),format.raw/*4.63*/("""" alt="Registration"/>
 
 
 <form action="action_page.php">
@@ -116,11 +116,11 @@ Seq[Any](format.raw/*1.18*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Wed Apr 11 20:42:13 IST 2018
-                  SOURCE: /home/wdd/webapps/year2WebApp/app/views/membership.scala.html
-                  HASH: c4f0ed4c14a0758dd63ab187fcd1338a510fa15b
-                  MATRIX: 953->1|1064->17|1093->21|1119->39|1158->41|1186->43
-                  LINES: 28->1|33->1|34->2|34->2|34->2|36->4
+                  DATE: Thu Apr 12 16:54:33 IST 2018
+                  SOURCE: /home/wdd/webapps/webappsyear2/app/views/membership.scala.html
+                  HASH: a6eecb2f185349ad2b97b830b28bbf7238cf9b99
+                  MATRIX: 953->1|1064->17|1093->21|1119->39|1158->41|1186->43|1223->54|1237->60|1302->105
+                  LINES: 28->1|33->1|34->2|34->2|34->2|36->4|36->4|36->4|36->4
                   -- GENERATED --
               */
           

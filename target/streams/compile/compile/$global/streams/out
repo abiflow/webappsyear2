@@ -1,4 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/webapps/year2WebApp/app/views/main.scala.html:68:72: value Morenike is not a member of controllers.ReverseHomeController[0m
-[0m[[0m[31merror[0m] [0m[0m                    <span class="bold"><a href="@routes.HomeController.Morenike()" class="btn btn-success" role="button">Morenikes' Corner</a></span>[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                       ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/webapps/webappsyear2/app/controllers/HomeController.java:50:1: method render in class views.html.requestforbooks cannot be applied to given types;[0m
+[0m[[0m[31merror[0m] [0m[0m  required: no arguments[0m
+[0m[[0m[31merror[0m] [0m[0m  found: java.lang.String[0m
+[0m[[0m[31merror[0m] [0m[0m  reason: actual and formal argument lists differ in length[0m
+[0m[[0m[31merror[0m] [0m[0m        return ok(views.html.requestforbooks.render("Request For Books"));[0m

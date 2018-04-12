@@ -35,14 +35,14 @@ Seq[Any](format.raw/*1.18*/("""
 """),_display_(/*3.2*/main("Home Page")/*3.19*/ {_display_(Seq[Any](format.raw/*3.21*/("""
   """),format.raw/*4.3*/("""<link rel="stylesheet" href=""""),_display_(/*4.33*/routes/*4.39*/.Assets.versioned("stylesheets/books.css")),format.raw/*4.81*/("""">
 <div class="list">
-  <a href="kids.html" Kids target="_blank">
-    <img src="childLaugh.png" alt=" kids having fun" />
+  <a href=""""),_display_(/*6.13*/routes/*6.19*/.HomeController.playtime()),format.raw/*6.45*/("""" Kids target="_blank">
+    <img src=""""),_display_(/*7.16*/routes/*7.22*/.Assets.versioned("images/photo/childLaugh.png")),format.raw/*7.70*/(""""alt=" kids having fun" />
   </a>
-  <a href="contactus.html" Contact Us target="_blank">
-    <img src="readingculture1.png" alt="children reading" />
+  <a href=""""),_display_(/*9.13*/routes/*9.19*/.HomeController.contact()),format.raw/*9.44*/("""" Contact Us target="_blank">
+    <img src=""""),_display_(/*10.16*/routes/*10.22*/.Assets.versioned("images/photo/readingculture1.png")),format.raw/*10.75*/("""" alt="children reading" />
   </a>
-  <a href="two for books.html" TwoforBooks target="_blank">
-    <img src="donatebanner.png" alt="donation" />
+  <a href=""""),_display_(/*12.13*/routes/*12.19*/.HomeController.requestforbooks()),format.raw/*12.52*/("""" TwoforBooks target="_blank">
+    <img src=""""),_display_(/*13.16*/routes/*13.22*/.Assets.versioned("images/photo/donatebanner.png")),format.raw/*13.72*/("""" alt="donation" />
   </a>
 
 
@@ -61,13 +61,14 @@ Seq[Any](format.raw/*1.18*/("""
 
     <ul>
       <li>
-        <a href="Explore.html">Explore History</a>
+        <a href=" """),_display_(/*32.20*/routes/*32.26*/.Assets.versioned("images/photo/http://www.nigeriahc.org.uk/culture-tourism")),format.raw/*32.103*/("""">Explore History</a>
+       
       </li>
       <li>
-        <a href="requestforbooks.html">Request For Books</a>
+        <a href=""""),_display_(/*36.19*/routes/*36.25*/.HomeController.requestforbooks()),format.raw/*36.58*/("""">Request For Books</a>
       </li>
       <li>
-        <a href="morenike's Corner.html">Morenike's Corner</a>
+        <a href=""""),_display_(/*39.19*/routes/*39.25*/.HomeController.morenike),format.raw/*39.49*/("""'s Corner()">Morenike's Corner</a>
       </li>
     </ul>
   </div>
@@ -87,11 +88,11 @@ Seq[Any](format.raw/*1.18*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Wed Apr 11 21:05:12 IST 2018
-                  SOURCE: /home/wdd/webapps/year2WebApp/app/views/index.scala.html
-                  HASH: 6e396afc5dfdbed05d99dd4230110d6e0cb7478f
-                  MATRIX: 948->1|1059->17|1088->21|1113->38|1152->40|1181->43|1237->73|1251->79|1313->121
-                  LINES: 28->1|33->1|35->3|35->3|35->3|36->4|36->4|36->4|36->4
+                  DATE: Thu Apr 12 17:42:48 IST 2018
+                  SOURCE: /home/wdd/webapps/webappsyear2/app/views/index.scala.html
+                  HASH: 8e242505112871b945f5b95e402347ce84f368a2
+                  MATRIX: 948->1|1059->17|1088->21|1113->38|1152->40|1181->43|1237->73|1251->79|1313->121|1373->155|1387->161|1433->187|1498->226|1512->232|1580->280|1652->326|1666->332|1711->357|1783->402|1798->408|1872->461|1946->508|1961->514|2015->547|2088->593|2103->599|2174->649|3026->1474|3041->1480|3140->1557|3238->1628|3253->1634|3307->1667|3399->1732|3414->1738|3459->1762
+                  LINES: 28->1|33->1|35->3|35->3|35->3|36->4|36->4|36->4|36->4|38->6|38->6|38->6|39->7|39->7|39->7|41->9|41->9|41->9|42->10|42->10|42->10|44->12|44->12|44->12|45->13|45->13|45->13|64->32|64->32|64->32|68->36|68->36|68->36|71->39|71->39|71->39
                   -- GENERATED --
               */
           

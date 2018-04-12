@@ -12,7 +12,7 @@ GET     /bookscategory                       controllers.HomeController.bookscat
 GET     /playtime                            controllers.HomeController.playtime
 GET     /morenike                          controllers.HomeController.morenike
 GET     /contact                          controllers.HomeController.contact
-
+GET     /requestforbooks                  controllers.HomeController.requestforbooks
 
 
 

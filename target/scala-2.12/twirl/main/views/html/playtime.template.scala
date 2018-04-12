@@ -35,12 +35,12 @@ Seq[Any](format.raw/*1.18*/("""
 
 
 """),format.raw/*5.1*/("""<a href="https://www.youtube.com/watch?v=5ZCgbGgA-_8" Teletubby target="_blank">
-    <img src="teletubbies.png" alt="" />Watch</a>
+    <img src=""""),_display_(/*6.16*/routes/*6.22*/.Assets.versioned("images/photo/teletubbies.png")),format.raw/*6.71*/("""" alt="" />Watch</a>
 
 <a href="https://www.youtube.com/watch?v=zb24hfez_sQ" nursery rhymes target="_blank">
-    <img src="dancing.png" alt="" />Watch</a>
+    <img src=""""),_display_(/*9.16*/routes/*9.22*/.Assets.versioned("images/photo/dancing.png")),format.raw/*9.67*/("""" alt="" />Watch</a>
 <a href="https://www.youtube.com/watch?v=FrsM9WggCdo&list=PL-2jf7tAUXPHApwu3FifugJOKlldawPds" happy songtarget="_blank">
-    <img src="cool.png" alt="" />Watch</a>
+    <img src=""""),_display_(/*11.16*/routes/*11.22*/.Assets.versioned("images/photo/cool.png")),format.raw/*11.64*/("""" alt="" />Watch</a>
 
 
 
@@ -90,11 +90,11 @@ Small kindnesses can be another way to signal liking.
 
               /*
                   -- GENERATED --
-                  DATE: Wed Apr 11 20:42:13 IST 2018
-                  SOURCE: /home/wdd/webapps/year2WebApp/app/views/playtime.scala.html
-                  HASH: 8b4922dced6a48b07e55d8bf77a3dd1c61d089f6
-                  MATRIX: 951->1|1062->17|1091->21|1115->37|1154->39|1183->42
-                  LINES: 28->1|33->1|34->2|34->2|34->2|37->5
+                  DATE: Thu Apr 12 16:54:33 IST 2018
+                  SOURCE: /home/wdd/webapps/webappsyear2/app/views/playtime.scala.html
+                  HASH: 46f8b7858b690d5e242f141cadb97c21b3e43a6c
+                  MATRIX: 951->1|1062->17|1091->21|1115->37|1154->39|1183->42|1305->138|1319->144|1388->193|1537->316|1551->322|1616->367|1800->524|1815->530|1878->572
+                  LINES: 28->1|33->1|34->2|34->2|34->2|37->5|38->6|38->6|38->6|41->9|41->9|41->9|43->11|43->11|43->11
                   -- GENERATED --
               */
           

@@ -1,0 +1,71 @@
+@(message:String) 
+ @main("Request For Books") {
+
+
+    <header>
+            <h1>How to Request for Books</h1> 
+            
+
+        
+              </header>
+
+              <p>Members can request for book from any location in Nigeria.</p>
+              <ul>
+                <li>Members can donate books.<li>
+                  <li>Members can volunteer<li>
+                      </ul>
+                      </div>
+         
+    <h2>Register today to be a member</h2>
+    <form action="/action_page.php">
+      <div class="form-group">
+     <div class="col-xs-4">
+        <label for="email">Email address:</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+     <div class="col-xs-4">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" id="pwd">
+      </div>
+      </div>
+      <div class="checkbox">
+        <label><input type="checkbox"> Remember me</label>
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form> 
+    <br>
+    <h1>Information About Shipments</h1>
+    
+    Books For Nigeria Schools In Africa receives new and used book donations from organisations, places of worship, charities across Europe, US and other continents.<br>
+    We accepted books from public and private schools, libraries, publishers, and individuals. <br>
+    We accept books at all age levels, from preschool (beginning reader) to post-secondary (college or university). <br>
+    Donated books are sorted and processed for shipping by volunteers.<br>
+    
+                 
+               
+            <div class="footer text-center">
+    <p>Back to <a href="@routes.HomeController.index()">Home Page </a></p>
+      <ul "right-side" class="pager">
+       <li><a href="@routes.HomeController.membership()">Previous</a></li>
+        <li><a href="@routes.HomeController.playtime()">Next</a></li>
+      </ul>
+    </div>
+                    
+    <ul class="pagination">
+    <h6>Page numbers</h6>    
+    <li class="active"><a href="@routes.HomeController.index()">1</a></li>
+        <li class="active"><a href="@routes.HomeController.about()">2</a></li>
+        <li class="active"><a href="@routes.HomeController.donation()">3</a></li>
+        <li class="active"><a href="@routes.HomeController.membership()">4</a></li>
+        <li class="active"><a href="@routes.HomeController.bookscategory()">5</a></li>
+        <li class="active"><a href="@routes.HomeController.playtime()">6</a></li>
+        <li class="active"><a href="https://nmaahc.si.edu/">7</a></li>
+        <li class="active"><a href="@routes.HomeController.morenike()">8</a></li>
+        <li class="active"><a href="@routes.HomeController.contact()">9</a></li>
+      </ul>		
+    
+
+ }
+
+
+ 

@@ -21,8 +21,8 @@ page.
 	
 	  <form class="navbar-form navbar-right" action="/action_page.php">
       <div class="form-group">
-      <a href="membership.html" button type="button" class="glyphicon glyphicon-user btn btn-success">Sign Up </a></button>
-      <a href="bookscategory.html" button type="button" class="btn btn-success">Login </a></button>
+      <a href="@routes.HomeController.membership()" button type="button" class="glyphicon glyphicon-user btn btn-success">Sign Up </a></button>
+      <a href="@routes.HomeController.bookscategory()" button type="button" class="btn btn-success">Login </a></button>
 	  <p><br>
 	  <input type="text" class="form-control" placeholder="Search">
 	  
@@ -37,21 +37,21 @@ page.
 
 <ul class="pagination">
 <h6>Page numbers</h6>    
-<li class="active"><a href="index.html">1</a></li>
-    <li class="active"><a href="aboutus.html">2</a></li>
-    <li class="active"><a href="donation.html">3</a></li>
-    <li class="active"><a href="membership.html">4</a></li>
-    <li class="active"><a href="bookscategory.html">5</a></li>
-	<li class="active"><a href="playtime.html">6</a></li>
+<li class="active"><a href="@routes.HomeController.index()">1</a></li>
+    <li class="active"><a href="@routes.HomeController.about()">2</a></li>
+    <li class="active"><a href="@routes.HomeController.donation()">3</a></li>
+    <li class="active"><a href="@routes.HomeController.membership()">4</a></li>
+    <li class="active"><a href="@routes.HomeController.bookscategory()">5</a></li>
+	<li class="active"><a href="@routes.HomeController.playtime()">6</a></li>
 	<li class="active"><a href="https://nmaahc.si.edu/">7</a></li>
-	<li class="active"><a href="Morenike's Corner.html">8</a></li>
-	<li class="active"><a href="contactus.html">9</a></li>
+	<li class="active"><a href="@routes.HomeController.morenike()">8</a></li>
+	<li class="active"><a href="@routes.HomeController.contact()">9</a></li>
   </ul>		  
 					  
   <div class="row">
-  <img src="schoolboy.png" class="img-rounded" alt="schoolboy sitting" width="800" height="236">
-  <img src= "treebook.png" class="img-rounded" alt=" book tree"width="800" height="236">
-  <img src= "outdoor.png" class="img-rounded" alt="children reading without class room"width="800" height="236">
+  <img src="@routes.Assets.versioned("images/photo/schoolboy.png")" class="img-rounded" alt="schoolboy sitting" width="800" height="236">
+  <img src= "@routes.Assets.versioned("images/photo/treebook.png")" class="img-rounded" alt=" book tree"width="800" height="236">
+  <img src= "@routes.Assets.versioned("images/photo/outdoor.png")" class="img-rounded" alt="children reading without class room"width="800" height="236">
   
     </div>     
    </header>       
@@ -66,7 +66,8 @@ page.
 				   <span class="bold"><a href="@routes.HomeController.playtime()"class="btn btn-success" role="button" > Play Time</a></span>
                   <span class="bold"><a href="https://nmaahc.si.edu/" target="_blank" class="btn btn-success" role="button">My History, Your Story</a></span>
                     <span class="bold"><a href="@routes.HomeController.morenike()" class="btn btn-success" role="button">Morenikes' Corner</a></span>
-					   <span class="bold"><a href="@routes.HomeController.contact()" class="btn btn-success" role="button"> Contact Us</a></span>
+                       <span class="bold"><a href="@routes.HomeController.contact()" class="btn btn-success" role="button"> Contact Us</a></span>
+                       <span class="bold"><a href="@routes.HomeController.requestforbooks()" class="btn btn-success" role="button"> Request For Books</a></span>
 					   </div>
 					   </nav>
                        
@@ -81,18 +82,18 @@ page.
          
             
                 <div class="blank">
-                    <a href="donation.html" MAKE A DONATION target="_blank">
-                   <img src="donatefunds.png" alt="Donate Funds" class="margin"/></a>
+                    <a href="@routes.HomeController.donation()" MAKE A DONATION target="_blank">
+                   <img src="@routes.Assets.versioned("images/photo/donatefunds.png")" alt="Donate Funds" class="margin"/></a>
  
-                  <a href="membership.html" BECOME A MEMBER target = "_blank">
-                 <img src="member.png" alt="Membership" class="margin"/></a>
+                  <a href="@routes.HomeController.membership()" BECOME A MEMBER target = "_blank">
+                 <img src="@routes.Assets.versioned("images/photo/member.png")" alt="Membership" class="margin"/></a>
                  
-                 <img id="footer" src="thankyou.png" class="margin"alt="thank you picture"/></p>
+                 <img id="footer" src="@routes.Assets.versioned("images/photo/thankyou.png")" class="margin"alt="thank you picture"/></p>
                  </div>
                  
             
                  
-                    <p class="text-center"> Please <a href="contactus.html" class="alert-link">contact us </a> to make a difference Today!!!</p>
+                    <p class="text-center"> Please <a href="@routes.HomeController.contact()" class="alert-link">contact us </a> to make a difference Today!!!</p>
                      
                        
                  

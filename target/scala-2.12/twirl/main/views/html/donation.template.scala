@@ -36,11 +36,11 @@ Seq[Any](format.raw/*1.18*/("""
 
 
 
-"""),format.raw/*7.1*/("""<img src="donatediffe.png" alt " Donate makes a difference"/>
+"""),format.raw/*7.1*/("""<img src=""""),_display_(/*7.12*/routes/*7.18*/.Assets.versioned("images/photo/donatediffe.png")),format.raw/*7.67*/("""" alt " Donate makes a difference"/>
 
 <h2> Donate Books </h2>
 <p>
-    <img src="box.png" alt " Books inside box"/>
+    <img src=""""),_display_(/*11.16*/routes/*11.22*/.Assets.versioned("images/photo/box.png")),format.raw/*11.63*/("""" alt " Books inside box"/>
 </p>
 <h3>Books For Nigeria Schools In Africa needs all book donations. </h3>
 <br> Two for One- Donate £1 / $1 for every two books donated to us.</br>
@@ -62,7 +62,7 @@ Seq[Any](format.raw/*1.18*/("""
     <h2> Donate Fund </h2>
 
     <p>
-        <img src="donate.png" alt " Books inside box"/>
+        <img src=""""),_display_(/*33.20*/routes/*33.26*/.Assets.versioned("images/photo/donate.png")),format.raw/*33.70*/("""" alt " Books inside box"/>
     </p>
 
     <p>You can also mail a check, cash or money order to:</p>
@@ -78,8 +78,8 @@ Seq[Any](format.raw/*1.18*/("""
 <div class="payment">
     <p>Or make a donation online. </p>
     <li class="img">
-        <img src="payment.png" alt " payment method"/>
-        <img src="creditcardicons.png" alt " payment method"/>
+        <img src=""""),_display_(/*49.20*/routes/*49.26*/.Assets.versioned("images/photo/payment.png")),format.raw/*49.71*/("""" alt " payment method"/>
+        <img src=""""),_display_(/*50.20*/routes/*50.26*/.Assets.versioned("images/photo/creditcardicons.png")),format.raw/*50.79*/("""" alt " payment method"/>
     </li>
 </div>
 <div class="don_text">
@@ -108,11 +108,11 @@ Seq[Any](format.raw/*1.18*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Wed Apr 11 20:42:13 IST 2018
-                  SOURCE: /home/wdd/webapps/year2WebApp/app/views/donation.scala.html
-                  HASH: 20258020d7525354fec6d8f439b927d9e4b88758
-                  MATRIX: 951->1|1062->17|1090->19|1118->22|1142->38|1181->40|1212->45
-                  LINES: 28->1|33->1|34->2|34->2|34->2|34->2|39->7
+                  DATE: Thu Apr 12 16:54:33 IST 2018
+                  SOURCE: /home/wdd/webapps/webappsyear2/app/views/donation.scala.html
+                  HASH: d5282c58be3060a051b393b2ce6c46748c78ad01
+                  MATRIX: 951->1|1062->17|1090->19|1118->22|1142->38|1181->40|1212->45|1249->56|1263->62|1332->111|1440->192|1455->198|1517->239|2072->767|2087->773|2152->817|2591->1229|2606->1235|2672->1280|2744->1325|2759->1331|2833->1384
+                  LINES: 28->1|33->1|34->2|34->2|34->2|34->2|39->7|39->7|39->7|39->7|43->11|43->11|43->11|65->33|65->33|65->33|81->49|81->49|81->49|82->50|82->50|82->50
                   -- GENERATED --
               */
           

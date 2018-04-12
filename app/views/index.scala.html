@@ -3,14 +3,14 @@
 @main("Home Page") {
   <link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/books.css")">
 <div class="list">
-  <a href="kids.html" Kids target="_blank">
-    <img src="childLaugh.png" alt=" kids having fun" />
+  <a href="@routes.HomeController.playtime()" Kids target="_blank">
+    <img src="@routes.Assets.versioned("images/photo/childLaugh.png")"alt=" kids having fun" />
   </a>
-  <a href="contactus.html" Contact Us target="_blank">
-    <img src="readingculture1.png" alt="children reading" />
+  <a href="@routes.HomeController.contact()" Contact Us target="_blank">
+    <img src="@routes.Assets.versioned("images/photo/readingculture1.png")" alt="children reading" />
   </a>
-  <a href="two for books.html" TwoforBooks target="_blank">
-    <img src="donatebanner.png" alt="donation" />
+  <a href="@routes.HomeController.requestforbooks()" TwoforBooks target="_blank">
+    <img src="@routes.Assets.versioned("images/photo/donatebanner.png")" alt="donation" />
   </a>
 
 
@@ -29,13 +29,14 @@
 
     <ul>
       <li>
-        <a href="Explore.html">Explore History</a>
+        <a href=" @routes.Assets.versioned("images/photo/http://www.nigeriahc.org.uk/culture-tourism")">Explore History</a>
+       
       </li>
       <li>
-        <a href="requestforbooks.html">Request For Books</a>
+        <a href="@routes.HomeController.requestforbooks()">Request For Books</a>
       </li>
       <li>
-        <a href="morenike's Corner.html">Morenike's Corner</a>
+        <a href="@routes.HomeController.morenike's Corner()">Morenike's Corner</a>
       </li>
     </ul>
   </div>

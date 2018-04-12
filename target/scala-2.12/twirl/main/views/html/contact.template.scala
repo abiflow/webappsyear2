@@ -42,15 +42,15 @@ Seq[Any](format.raw/*1.18*/("""
               that area of the continent located at the Western part of Africa.
 
 
-<img src="spaces.png" alt" ofiice picture"/>
+<img src=""""),_display_(/*13.12*/routes/*13.18*/.Assets.versioned("images/photo/spaces.png")),format.raw/*13.62*/("""" alt" ofiice picture"/>
 
        
 
-<a href=" http://www.travelstart.com.ng/blog/30-top-attractions-in-nigeria" Flag target= "_blank">
-<img src="9jalogo.png" alt=""/>Tourism In Nigeria****</a>
+<a href=""""),_display_(/*17.11*/routes/*17.17*/.Assets.versioned("images/photo/ http://www.travelstart.com.ng/blog/30-top-attractions-in-nigeria")),format.raw/*17.116*/("""" Flag target= "_blank">
+<img src=""""),_display_(/*18.12*/routes/*18.18*/.Assets.versioned("images/photo/9jalogo.png")),format.raw/*18.63*/("""" alt=""/>Tourism In Nigeria****</a>
 
 
-<a href=" http://www.nigeriahc.org.uk/culture-tourism"> History Of Nigeria</a>
+<a href=" """),_display_(/*21.12*/routes/*21.18*/.Assets.versioned("images/photo/http://www.nigeriahc.org.uk/culture-tourism")),format.raw/*21.95*/("""" History Of Nigeria</a>
      <h2>If mailing books, please send book donations to or drop off books at:</h2>
 <ul>
 <li>Books For Nigeria Schools in Africa Warehouse-Balsbridge
@@ -87,11 +87,11 @@ Seq[Any](format.raw/*1.18*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Wed Apr 11 20:42:13 IST 2018
-                  SOURCE: /home/wdd/webapps/year2WebApp/app/views/contact.scala.html
-                  HASH: bb163166aff4ba00bb5fee3f2b66caae63f8505c
-                  MATRIX: 950->1|1061->17|1090->21|1116->39|1155->41|1188->48
-                  LINES: 28->1|33->1|35->3|35->3|35->3|38->6
+                  DATE: Thu Apr 12 16:57:26 IST 2018
+                  SOURCE: /home/wdd/webapps/webappsyear2/app/views/contact.scala.html
+                  HASH: c6352f20d4c61d1bd82901b8ebe5f1862d858304
+                  MATRIX: 950->1|1061->17|1090->21|1116->39|1155->41|1188->48|1638->471|1653->477|1718->521|1790->566|1805->572|1926->671|1989->707|2004->713|2070->758|2147->808|2162->814|2260->891
+                  LINES: 28->1|33->1|35->3|35->3|35->3|38->6|45->13|45->13|45->13|49->17|49->17|49->17|50->18|50->18|50->18|53->21|53->21|53->21
                   -- GENERATED --
               */
           

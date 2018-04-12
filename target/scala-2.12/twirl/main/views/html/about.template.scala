@@ -34,11 +34,11 @@ Seq[Any](format.raw/*1.18*/("""
  
 """),_display_(/*3.2*/main("About Us")/*3.18*/ {_display_(Seq[Any](format.raw/*3.20*/("""
 
-"""),format.raw/*5.1*/("""<img src="classroom.png" alt="" />
-<img src="kidsbooks.png" alt="" />
+"""),format.raw/*5.1*/("""<img src=""""),_display_(/*5.12*/routes/*5.18*/.Assets.versioned("images/photo/classroom.png")),format.raw/*5.65*/("""" alt="" />
+<img src=""""),_display_(/*6.12*/routes/*6.18*/.Assets.versioned("images/photo/kidsbooks.png")),format.raw/*6.65*/("""" alt="" />
 
 
-<img src="stream.png" alt="" />
+<img src=""""),_display_(/*9.12*/routes/*9.18*/.Assets.versioned("images/photo/stream.png")),format.raw/*9.62*/("""" alt="" />
 
 
 <h2>What You Need to know About Us</h2>
@@ -76,11 +76,11 @@ Seq[Any](format.raw/*1.18*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Wed Apr 11 20:42:13 IST 2018
-                  SOURCE: /home/wdd/webapps/year2WebApp/app/views/about.scala.html
-                  HASH: 7c96eefcaa05abe58236bd9eb8ea462f0d719f85
-                  MATRIX: 948->1|1059->17|1089->22|1113->38|1152->40|1180->42
-                  LINES: 28->1|33->1|35->3|35->3|35->3|37->5
+                  DATE: Thu Apr 12 16:54:33 IST 2018
+                  SOURCE: /home/wdd/webapps/webappsyear2/app/views/about.scala.html
+                  HASH: 8d275ffcce2995b73e7ee7aced34f6d519b1e8f2
+                  MATRIX: 948->1|1059->17|1089->22|1113->38|1152->40|1180->42|1217->53|1231->59|1298->106|1347->129|1361->135|1428->182|1479->207|1493->213|1557->257
+                  LINES: 28->1|33->1|35->3|35->3|35->3|37->5|37->5|37->5|37->5|38->6|38->6|38->6|41->9|41->9|41->9
                   -- GENERATED --
               */
           

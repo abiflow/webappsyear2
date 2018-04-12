@@ -46,5 +46,8 @@ public class HomeController extends Controller {
     public Result contact() {
         return ok(views.html.contact.render("Contact Us"));
     }
+    public Result requestforbooks() {
+        return ok(views.html.requestforbooks.render("Request For Books"));
+    }
 
 }
