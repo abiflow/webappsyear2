@@ -1,7 +1,16 @@
 @(message:String) 
  
 @main("Books Category") {
-
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/books.css")">
+  </head>
     
          
    
@@ -11,19 +20,9 @@
                 
     
                          
-                           <div class="text panel-body">
-                          <h2>A simple name for an organisation with a simple mission.</h2>
-                    
-              <p>We collect, sort, ship, and distribute books to students of all ages in Africa. Our goal: to end the book famine in Africa.
-    
-    Books For Africa remains the largest shipper of donated text and library books to the African continent,
-    shipping over 36 million books to 49 different countries since 1988. 
-    Over the past 12 months we have shipped 2.4 million books, 154 computers and 62 e-readers containing 467,000 million digital books, as well as 7 new law and human rights libraries to 25 African countries.
-     
-     More than $2.5 million was raised last year to ship the books to the students of Africa. </p>
-                  </div>
+                           
                   
-                  <h2>Register today to be a member</h2>
+ <h2>Register today to be a member</h2>
     <form action="/action_page.php">
       <div class="form-group">
      <div class="col-xs-4">
@@ -122,16 +121,7 @@
     
     
     
-                     <div class="blank">
-                       <a href="@routes.HomeController.donation()" MAKE A DONATION target="_blank">
-                      <img src="@routes.Assets.versioned("images/photo/donatefunds.png")" alt="Donate Funds" class="margin"/></a>
-    
-                     <a href="@routes.HomeController.membership()" BECOME A MEMBER target = "_blank">
-                    <img src="@routes.Assets.versioned("images/photo/member.png")" alt="Membership" class="margin"/></a>
-                    
-                    <img id="footer" src="@routes.Assets.versioned("images/photo/thankyou.png")" class="margin"alt="thank you picture"/></p>
-                    </div>
-            
+                     
         
     <div class="footer text-center">
     <p>Back to <a href="@routes.HomeController.index()">Home Page </a></p>
