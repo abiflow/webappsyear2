@@ -32,8 +32,17 @@ object membership extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api
 
 Seq[Any](format.raw/*1.18*/(""" 
  """),_display_(/*2.3*/main("membership")/*2.21*/ {_display_(Seq[Any](format.raw/*2.23*/("""
-
-"""),format.raw/*4.1*/("""<img src=""""),_display_(/*4.12*/routes/*4.18*/.Assets.versioned("images/photo/registr.png")),format.raw/*4.63*/("""" alt="Registration"/>
+    """),format.raw/*3.5*/("""<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href=""""),_display_(/*11.37*/routes/*11.43*/.Assets.versioned("stylesheets/books.css")),format.raw/*11.85*/("""">
+    </head>
+<img src=""""),_display_(/*13.12*/routes/*13.18*/.Assets.versioned("images/photo/registr.png")),format.raw/*13.63*/("""" alt="Registration"/>
 
 
 <form action="action_page.php">
@@ -116,11 +125,11 @@ Seq[Any](format.raw/*1.18*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Thu Apr 12 16:54:33 IST 2018
+                  DATE: Thu Apr 19 16:52:10 IST 2018
                   SOURCE: /home/wdd/webapps/webappsyear2/app/views/membership.scala.html
-                  HASH: a6eecb2f185349ad2b97b830b28bbf7238cf9b99
-                  MATRIX: 953->1|1064->17|1093->21|1119->39|1158->41|1186->43|1223->54|1237->60|1302->105
-                  LINES: 28->1|33->1|34->2|34->2|34->2|36->4|36->4|36->4|36->4
+                  HASH: 7caef39f79a82d57d45a75d9dabd2e05d1425f0a
+                  MATRIX: 953->1|1064->17|1093->21|1119->39|1158->41|1189->46|1704->534|1719->540|1782->582|1835->608|1850->614|1916->659
+                  LINES: 28->1|33->1|34->2|34->2|34->2|35->3|43->11|43->11|43->11|45->13|45->13|45->13
                   -- GENERATED --
               */
           

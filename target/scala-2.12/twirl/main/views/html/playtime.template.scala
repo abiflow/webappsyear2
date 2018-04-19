@@ -32,15 +32,24 @@ object playtime extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.H
 
 Seq[Any](format.raw/*1.18*/(""" 
  """),_display_(/*2.3*/main("Playtime")/*2.19*/ {_display_(Seq[Any](format.raw/*2.21*/("""
+    """),format.raw/*3.5*/("""<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href=""""),_display_(/*11.37*/routes/*11.43*/.Assets.versioned("stylesheets/books.css")),format.raw/*11.85*/("""">
+    </head>
 
-
-"""),format.raw/*5.1*/("""<a href="https://www.youtube.com/watch?v=5ZCgbGgA-_8" Teletubby target="_blank">
-    <img src=""""),_display_(/*6.16*/routes/*6.22*/.Assets.versioned("images/photo/teletubbies.png")),format.raw/*6.71*/("""" alt="" />Watch</a>
+<a href="https://www.youtube.com/watch?v=5ZCgbGgA-_8" Teletubby target="_blank">
+    <img src=""""),_display_(/*15.16*/routes/*15.22*/.Assets.versioned("images/photo/teletubbies.png")),format.raw/*15.71*/("""" alt="" />Watch</a>
 
 <a href="https://www.youtube.com/watch?v=zb24hfez_sQ" nursery rhymes target="_blank">
-    <img src=""""),_display_(/*9.16*/routes/*9.22*/.Assets.versioned("images/photo/dancing.png")),format.raw/*9.67*/("""" alt="" />Watch</a>
+    <img src=""""),_display_(/*18.16*/routes/*18.22*/.Assets.versioned("images/photo/dancing.png")),format.raw/*18.67*/("""" alt="" />Watch</a>
 <a href="https://www.youtube.com/watch?v=FrsM9WggCdo&list=PL-2jf7tAUXPHApwu3FifugJOKlldawPds" happy songtarget="_blank">
-    <img src=""""),_display_(/*11.16*/routes/*11.22*/.Assets.versioned("images/photo/cool.png")),format.raw/*11.64*/("""" alt="" />Watch</a>
+    <img src=""""),_display_(/*20.16*/routes/*20.22*/.Assets.versioned("images/photo/cool.png")),format.raw/*20.64*/("""" alt="" />Watch</a>
 
 
 
@@ -90,11 +99,11 @@ Small kindnesses can be another way to signal liking.
 
               /*
                   -- GENERATED --
-                  DATE: Thu Apr 12 16:54:33 IST 2018
+                  DATE: Thu Apr 19 16:52:10 IST 2018
                   SOURCE: /home/wdd/webapps/webappsyear2/app/views/playtime.scala.html
-                  HASH: 46f8b7858b690d5e242f141cadb97c21b3e43a6c
-                  MATRIX: 951->1|1062->17|1091->21|1115->37|1154->39|1183->42|1305->138|1319->144|1388->193|1537->316|1551->322|1616->367|1800->524|1815->530|1878->572
-                  LINES: 28->1|33->1|34->2|34->2|34->2|37->5|38->6|38->6|38->6|41->9|41->9|41->9|43->11|43->11|43->11
+                  HASH: 515d69a85ee139739b189821c025b455a16d1c6b
+                  MATRIX: 951->1|1062->17|1091->21|1115->37|1154->39|1185->44|1700->532|1715->538|1778->580|1917->692|1932->698|2002->747|2152->870|2167->876|2233->921|2417->1078|2432->1084|2495->1126
+                  LINES: 28->1|33->1|34->2|34->2|34->2|35->3|43->11|43->11|43->11|47->15|47->15|47->15|50->18|50->18|50->18|52->20|52->20|52->20
                   -- GENERATED --
               */
           

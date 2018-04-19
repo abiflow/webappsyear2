@@ -33,12 +33,21 @@ object about extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
 Seq[Any](format.raw/*1.18*/(""" 
  
 """),_display_(/*3.2*/main("About Us")/*3.18*/ {_display_(Seq[Any](format.raw/*3.20*/("""
+    """),format.raw/*4.5*/("""<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href=""""),_display_(/*12.37*/routes/*12.43*/.Assets.versioned("stylesheets/books.css")),format.raw/*12.85*/("""">
+    </head>
+<img src=""""),_display_(/*14.12*/routes/*14.18*/.Assets.versioned("images/photo/classroom.png")),format.raw/*14.65*/("""" alt="" />
+<img src=""""),_display_(/*15.12*/routes/*15.18*/.Assets.versioned("images/photo/kidsbooks.png")),format.raw/*15.65*/("""" alt="" />
 
-"""),format.raw/*5.1*/("""<img src=""""),_display_(/*5.12*/routes/*5.18*/.Assets.versioned("images/photo/classroom.png")),format.raw/*5.65*/("""" alt="" />
-<img src=""""),_display_(/*6.12*/routes/*6.18*/.Assets.versioned("images/photo/kidsbooks.png")),format.raw/*6.65*/("""" alt="" />
 
-
-<img src=""""),_display_(/*9.12*/routes/*9.18*/.Assets.versioned("images/photo/stream.png")),format.raw/*9.62*/("""" alt="" />
+<img src=""""),_display_(/*18.12*/routes/*18.18*/.Assets.versioned("images/photo/stream.png")),format.raw/*18.62*/("""" alt="" />
 
 
 <h2>What You Need to know About Us</h2>
@@ -76,11 +85,11 @@ Seq[Any](format.raw/*1.18*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Thu Apr 12 16:54:33 IST 2018
+                  DATE: Thu Apr 19 16:52:09 IST 2018
                   SOURCE: /home/wdd/webapps/webappsyear2/app/views/about.scala.html
-                  HASH: 8d275ffcce2995b73e7ee7aced34f6d519b1e8f2
-                  MATRIX: 948->1|1059->17|1089->22|1113->38|1152->40|1180->42|1217->53|1231->59|1298->106|1347->129|1361->135|1428->182|1479->207|1493->213|1557->257
-                  LINES: 28->1|33->1|35->3|35->3|35->3|37->5|37->5|37->5|37->5|38->6|38->6|38->6|41->9|41->9|41->9
+                  HASH: 1e53595939e773d12359fb87864f7dddbb953683
+                  MATRIX: 948->1|1059->17|1089->22|1113->38|1152->40|1183->45|1698->533|1713->539|1776->581|1829->607|1844->613|1912->660|1962->683|1977->689|2045->736|2097->761|2112->767|2177->811
+                  LINES: 28->1|33->1|35->3|35->3|35->3|36->4|44->12|44->12|44->12|46->14|46->14|46->14|47->15|47->15|47->15|50->18|50->18|50->18
                   -- GENERATED --
               */
           

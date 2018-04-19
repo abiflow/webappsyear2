@@ -6,3 +6,13 @@ clean
 run
 clean
 exit
+compile 
+compile
+run 
+cd ..home
+cd home
+cd.. home
+cd /home/wdd/webapps/webappsyear2/
+cd../home/wdd/webapps/webappsyear2/
+git add .
+sbt run 

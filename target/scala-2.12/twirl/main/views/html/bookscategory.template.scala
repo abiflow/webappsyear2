@@ -33,29 +33,28 @@ object bookscategory extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.
 Seq[Any](format.raw/*1.18*/(""" 
  
 """),_display_(/*3.2*/main("Books Category")/*3.24*/ {_display_(Seq[Any](format.raw/*3.26*/("""
-
+  """),format.raw/*4.3*/("""<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href=""""),_display_(/*12.35*/routes/*12.41*/.Assets.versioned("stylesheets/books.css")),format.raw/*12.83*/("""">
+  </head>
     
          
    
     
                              
-                    """),format.raw/*10.21*/("""<main>
+                    <main>
                 
     
                          
-                           <div class="text panel-body">
-                          <h2>A simple name for an organisation with a simple mission.</h2>
-                    
-              <p>We collect, sort, ship, and distribute books to students of all ages in Africa. Our goal: to end the book famine in Africa.
-    
-    Books For Africa remains the largest shipper of donated text and library books to the African continent,
-    shipping over 36 million books to 49 different countries since 1988. 
-    Over the past 12 months we have shipped 2.4 million books, 154 computers and 62 e-readers containing 467,000 million digital books, as well as 7 new law and human rights libraries to 25 African countries.
-     
-     More than $2.5 million was raised last year to ship the books to the students of Africa. </p>
-                  </div>
+                           
                   
-                  <h2>Register today to be a member</h2>
+ <h2>Register today to be a member</h2>
     <form action="/action_page.php">
       <div class="form-group">
      <div class="col-xs-4">
@@ -75,8 +74,8 @@ Seq[Any](format.raw/*1.18*/("""
                   <div class="links">
                       <ul>
                      <li><a href="https://nmaahc.si.edu/" target="_blank">Explore History</a> </li>
-                      <li><a href=""""),_display_(/*46.37*/routes/*46.43*/.HomeController.requestforbooks()),format.raw/*46.76*/("""">Request For Books</a> </li>
-                       <li><a href=""""),_display_(/*47.38*/routes/*47.44*/.HomeController.morenike),format.raw/*47.68*/("""'s Corner()">Morenikes' Corner</a> </li>
+                      <li><a href=""""),_display_(/*45.37*/routes/*45.43*/.HomeController.requestforbooks()),format.raw/*45.76*/("""">Request For Books</a> </li>
+                       <li><a href=""""),_display_(/*46.38*/routes/*46.44*/.HomeController.morenike),format.raw/*46.68*/("""'s Corner()">Morenikes' Corner</a> </li>
                         </ul>  
                         </div>
                 
@@ -154,22 +153,13 @@ Seq[Any](format.raw/*1.18*/("""
     
     
     
-                     <div class="blank">
-                       <a href=""""),_display_(/*126.34*/routes/*126.40*/.HomeController.donation()),format.raw/*126.66*/("""" MAKE A DONATION target="_blank">
-                      <img src=""""),_display_(/*127.34*/routes/*127.40*/.Assets.versioned("images/photo/donatefunds.png")),format.raw/*127.89*/("""" alt="Donate Funds" class="margin"/></a>
-    
-                     <a href=""""),_display_(/*129.32*/routes/*129.38*/.HomeController.membership()),format.raw/*129.66*/("""" BECOME A MEMBER target = "_blank">
-                    <img src=""""),_display_(/*130.32*/routes/*130.38*/.Assets.versioned("images/photo/member.png")),format.raw/*130.82*/("""" alt="Membership" class="margin"/></a>
-                    
-                    <img id="footer" src=""""),_display_(/*132.44*/routes/*132.50*/.Assets.versioned("images/photo/thankyou.png")),format.raw/*132.96*/("""" class="margin"alt="thank you picture"/></p>
-                    </div>
-            
+                     
         
     <div class="footer text-center">
-    <p>Back to <a href=""""),_display_(/*137.26*/routes/*137.32*/.HomeController.index()),format.raw/*137.55*/("""">Home Page </a></p>
+    <p>Back to <a href=""""),_display_(/*127.26*/routes/*127.32*/.HomeController.index()),format.raw/*127.55*/("""">Home Page </a></p>
       <ul class="pager">
-       <li class="previous"><a href=""""),_display_(/*139.39*/routes/*139.45*/.HomeController.membership()),format.raw/*139.73*/("""">Previous</a></li>
-        <li class="next"><a href=""""),_display_(/*140.36*/routes/*140.42*/.HomeController.playtime()),format.raw/*140.68*/("""">Next</a></li>
+       <li class="previous"><a href=""""),_display_(/*129.39*/routes/*129.45*/.HomeController.membership()),format.raw/*129.73*/("""">Previous</a></li>
+        <li class="next"><a href=""""),_display_(/*130.36*/routes/*130.42*/.HomeController.playtime()),format.raw/*130.68*/("""">Next</a></li>
       </ul>
     </div>
             
@@ -191,11 +181,11 @@ Seq[Any](format.raw/*1.18*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Thu Apr 12 17:23:20 IST 2018
+                  DATE: Thu Apr 19 16:52:42 IST 2018
                   SOURCE: /home/wdd/webapps/webappsyear2/app/views/bookscategory.scala.html
-                  HASH: b782f560d83ab4f9e258fac1c3f65029a2ab8ba7
-                  MATRIX: 956->1|1067->17|1097->22|1127->44|1166->46|1270->122|3028->1853|3043->1859|3097->1892|3191->1959|3206->1965|3251->1989|6230->4940|6246->4946|6294->4972|6390->5040|6406->5046|6477->5095|6583->5173|6599->5179|6649->5207|6745->5275|6761->5281|6827->5325|6959->5429|6975->5435|7043->5481|7228->5638|7244->5644|7289->5667|7401->5751|7417->5757|7467->5785|7550->5840|7566->5846|7614->5872
-                  LINES: 28->1|33->1|35->3|35->3|35->3|42->10|78->46|78->46|78->46|79->47|79->47|79->47|158->126|158->126|158->126|159->127|159->127|159->127|161->129|161->129|161->129|162->130|162->130|162->130|164->132|164->132|164->132|169->137|169->137|169->137|171->139|171->139|171->139|172->140|172->140|172->140
+                  HASH: 2678ae940927ed2cd37d94e80d342a494fe4243f
+                  MATRIX: 956->1|1067->17|1097->22|1127->44|1166->46|1195->49|1694->521|1709->527|1772->569|2790->1560|2805->1566|2859->1599|2953->1666|2968->1672|3013->1696|6011->4666|6027->4672|6072->4695|6184->4779|6200->4785|6250->4813|6333->4868|6349->4874|6397->4900
+                  LINES: 28->1|33->1|35->3|35->3|35->3|36->4|44->12|44->12|44->12|77->45|77->45|77->45|78->46|78->46|78->46|159->127|159->127|159->127|161->129|161->129|161->129|162->130|162->130|162->130
                   -- GENERATED --
               */
           

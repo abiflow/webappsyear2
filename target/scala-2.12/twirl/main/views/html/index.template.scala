@@ -33,17 +33,26 @@ object index extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
 Seq[Any](format.raw/*1.18*/(""" 
 
 """),_display_(/*3.2*/main("Home Page")/*3.19*/ {_display_(Seq[Any](format.raw/*3.21*/("""
-  
+  """),format.raw/*4.3*/("""<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href=""""),_display_(/*12.35*/routes/*12.41*/.Assets.versioned("stylesheets/books.css")),format.raw/*12.83*/("""">
+  </head> 
 
-"""),format.raw/*6.1*/("""<div class="list">
-  <a href=""""),_display_(/*7.13*/routes/*7.19*/.HomeController.playtime()),format.raw/*7.45*/("""" Kids target="_blank">
-    <img src=""""),_display_(/*8.16*/routes/*8.22*/.Assets.versioned("images/photo/ChildLaugh.png")),format.raw/*8.70*/(""""alt=" kids having fun" />
+<div class="list">
+  <a href=""""),_display_(/*16.13*/routes/*16.19*/.HomeController.playtime()),format.raw/*16.45*/("""" Kids target="_blank">
+    <img src=""""),_display_(/*17.16*/routes/*17.22*/.Assets.versioned("images/photo/ChildLaugh.png")),format.raw/*17.70*/(""""alt=" kids having fun" />
   </a>
-  <a href=""""),_display_(/*10.13*/routes/*10.19*/.HomeController.contact()),format.raw/*10.44*/("""" Contact Us target="_blank">
-    <img src=""""),_display_(/*11.16*/routes/*11.22*/.Assets.versioned("images/photo/readingculture.png")),format.raw/*11.74*/("""" alt="children reading" />
+  <a href=""""),_display_(/*19.13*/routes/*19.19*/.HomeController.contact()),format.raw/*19.44*/("""" Contact Us target="_blank">
+    <img src=""""),_display_(/*20.16*/routes/*20.22*/.Assets.versioned("images/photo/readingculture.png")),format.raw/*20.74*/("""" alt="children reading" />
   </a>
-  <a href=""""),_display_(/*13.13*/routes/*13.19*/.HomeController.requestforbooks()),format.raw/*13.52*/("""" TwoforBooks target="_blank">
-    <img src=""""),_display_(/*14.16*/routes/*14.22*/.Assets.versioned("images/photo/donatebanner.png")),format.raw/*14.72*/("""" alt="donation" />
+  <a href=""""),_display_(/*22.13*/routes/*22.19*/.HomeController.requestforbooks()),format.raw/*22.52*/("""" TwoforBooks target="_blank">
+    <img src=""""),_display_(/*23.16*/routes/*23.22*/.Assets.versioned("images/photo/donatebanner.png")),format.raw/*23.72*/("""" alt="donation" />
   </a>
 
 
@@ -62,16 +71,16 @@ Seq[Any](format.raw/*1.18*/("""
 
     <ul>
       <li>
-        <a href=" """),_display_(/*33.20*/routes/*33.26*/.Assets.versioned("images/photo/http://www.nigeriahc.org.uk/culture-tourism")),format.raw/*33.103*/("""">Explore History</a>
-        <img src=""""),_display_(/*34.20*/routes/*34.26*/.Assets.versioned("images/photo/shelf.png")),format.raw/*34.69*/("""" alt="book shelf" />
+        <a href=" """),_display_(/*42.20*/routes/*42.26*/.Assets.versioned("images/photo/http://www.nigeriahc.org.uk/culture-tourism")),format.raw/*42.103*/("""">Explore History</a>
+        <img src=""""),_display_(/*43.20*/routes/*43.26*/.Assets.versioned("images/photo/shelf.png")),format.raw/*43.69*/("""" alt="book shelf" />
       </li>
       <li>
-        <a href=""""),_display_(/*37.19*/routes/*37.25*/.HomeController.requestforbooks()),format.raw/*37.58*/("""">Request For Books</a>
-        <img src=""""),_display_(/*38.20*/routes/*38.26*/.Assets.versioned("images/photo/kidsbooks.png")),format.raw/*38.73*/("""" alt="children showing reading books" />
+        <a href=""""),_display_(/*46.19*/routes/*46.25*/.HomeController.requestforbooks()),format.raw/*46.58*/("""">Request For Books</a>
+        <img src=""""),_display_(/*47.20*/routes/*47.26*/.Assets.versioned("images/photo/kidsbooks.png")),format.raw/*47.73*/("""" alt="children showing reading books" />
       </li>
       <li>
-        <a href=""""),_display_(/*41.19*/routes/*41.25*/.HomeController.morenike),format.raw/*41.49*/("""'s Corner()">Morenike's Corner</a>
-        <img src=""""),_display_(/*42.20*/routes/*42.26*/.Assets.versioned("images/photo/spe.png")),format.raw/*42.67*/("""" alt="picture speech head" />
+        <a href=""""),_display_(/*50.19*/routes/*50.25*/.HomeController.morenike),format.raw/*50.49*/("""'s Corner()">Morenike's Corner</a>
+        <img src=""""),_display_(/*51.20*/routes/*51.26*/.Assets.versioned("images/photo/spe.png")),format.raw/*51.67*/("""" alt="picture speech head" />
       </li>
     </ul>
   </div>
@@ -91,11 +100,11 @@ Seq[Any](format.raw/*1.18*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Thu Apr 12 21:21:15 IST 2018
+                  DATE: Thu Apr 19 16:52:09 IST 2018
                   SOURCE: /home/wdd/webapps/webappsyear2/app/views/index.scala.html
-                  HASH: af6e3170451a21b2ab0f840e26ce6c01b1ceddff
-                  MATRIX: 948->1|1059->17|1088->21|1113->38|1152->40|1183->45|1240->76|1254->82|1300->108|1365->147|1379->153|1447->201|1520->247|1535->253|1581->278|1653->323|1668->329|1741->381|1815->428|1830->434|1884->467|1957->513|1972->519|2043->569|2895->1394|2910->1400|3009->1477|3077->1518|3092->1524|3156->1567|3246->1630|3261->1636|3315->1669|3385->1712|3400->1718|3468->1765|3578->1848|3593->1854|3638->1878|3719->1932|3734->1938|3796->1979
-                  LINES: 28->1|33->1|35->3|35->3|35->3|38->6|39->7|39->7|39->7|40->8|40->8|40->8|42->10|42->10|42->10|43->11|43->11|43->11|45->13|45->13|45->13|46->14|46->14|46->14|65->33|65->33|65->33|66->34|66->34|66->34|69->37|69->37|69->37|70->38|70->38|70->38|73->41|73->41|73->41|74->42|74->42|74->42
+                  HASH: c4abb0016a808572c1f742120bc3ad69ef76a1fa
+                  MATRIX: 948->1|1059->17|1088->21|1113->38|1152->40|1181->43|1680->515|1695->521|1758->563|1831->609|1846->615|1893->641|1959->680|1974->686|2043->734|2116->780|2131->786|2177->811|2249->856|2264->862|2337->914|2411->961|2426->967|2480->1000|2553->1046|2568->1052|2639->1102|3491->1927|3506->1933|3605->2010|3673->2051|3688->2057|3752->2100|3842->2163|3857->2169|3911->2202|3981->2245|3996->2251|4064->2298|4174->2381|4189->2387|4234->2411|4315->2465|4330->2471|4392->2512
+                  LINES: 28->1|33->1|35->3|35->3|35->3|36->4|44->12|44->12|44->12|48->16|48->16|48->16|49->17|49->17|49->17|51->19|51->19|51->19|52->20|52->20|52->20|54->22|54->22|54->22|55->23|55->23|55->23|74->42|74->42|74->42|75->43|75->43|75->43|78->46|78->46|78->46|79->47|79->47|79->47|82->50|82->50|82->50|83->51|83->51|83->51
                   -- GENERATED --
               */
           

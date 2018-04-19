@@ -33,24 +33,33 @@ object contact extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Ht
 Seq[Any](format.raw/*1.18*/(""" 
 
 """),_display_(/*3.2*/main("Contact us")/*3.20*/ {_display_(Seq[Any](format.raw/*3.22*/("""
+  """),format.raw/*4.3*/("""<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href=""""),_display_(/*12.35*/routes/*12.41*/.Assets.versioned("stylesheets/books.css")),format.raw/*12.83*/("""">
+  </head>
 
-
-    """),format.raw/*6.5*/("""<p>Now, 20,000 students in 30 schools in 30 communities have access to books that will broaden individual horizons, 
+    <p>Now, 20,000 students in 30 schools in 30 communities have access to books that will broaden individual horizons, 
         enhance classrooms, and maybe significantly change a life or two.</p>
           <h2>Where We Work</h2>
               Books for Nigeria Schools in Africa is a charity organizations work throughout Nigeria—
               that area of the continent located at the Western part of Africa.
 
 
-<img src=""""),_display_(/*13.12*/routes/*13.18*/.Assets.versioned("images/photo/spaces.png")),format.raw/*13.62*/("""" alt" office picture"/>
+<img src=""""),_display_(/*22.12*/routes/*22.18*/.Assets.versioned("images/photo/spaces.png")),format.raw/*22.62*/("""" alt" office picture"/>
 
        
 
-<a href=""""),_display_(/*17.11*/routes/*17.17*/.Assets.versioned("images/photo/ http://www.travelstart.com.ng/blog/30-top-attractions-in-nigeria")),format.raw/*17.116*/("""" Flag target= "_blank">
-<img src=""""),_display_(/*18.12*/routes/*18.18*/.Assets.versioned("images/photo/9jalogo.png")),format.raw/*18.63*/("""" alt=""/>Tourism In Nigeria****</a>
+<a href=""""),_display_(/*26.11*/routes/*26.17*/.Assets.versioned("images/photo/ http://www.travelstart.com.ng/blog/30-top-attractions-in-nigeria")),format.raw/*26.116*/("""" Flag target= "_blank">
+<img src=""""),_display_(/*27.12*/routes/*27.18*/.Assets.versioned("images/photo/9jalogo.png")),format.raw/*27.63*/("""" alt=""/>Tourism In Nigeria****</a>
 
 
-<a href=" """),_display_(/*21.12*/routes/*21.18*/.Assets.versioned("images/photo/http://www.nigeriahc.org.uk/culture-tourism")),format.raw/*21.95*/("""" History Of Nigeria</a>
+<a href=" """),_display_(/*30.12*/routes/*30.18*/.Assets.versioned("images/photo/http://www.nigeriahc.org.uk/culture-tourism")),format.raw/*30.95*/("""" History Of Nigeria</a>
      <h2>If mailing books, please send book donations to or drop off books at:</h2>
 <ul>
 <li>Books For Nigeria Schools in Africa Warehouse-Balsbridge
@@ -71,10 +80,10 @@ Seq[Any](format.raw/*1.18*/("""
 
     
 <div class="footer text-center">
-    <p>Back to <a href=""""),_display_(/*42.26*/routes/*42.32*/.HomeController.index()),format.raw/*42.55*/("""">Home Page </a></p>
+    <p>Back to <a href=""""),_display_(/*51.26*/routes/*51.32*/.HomeController.index()),format.raw/*51.55*/("""">Home Page </a></p>
       <ul "right-side" class="pager">
-       <li><a href=""""),_display_(/*44.22*/routes/*44.28*/.HomeController.membership()),format.raw/*44.56*/("""">Previous</a></li>
-        <li><a href=""""),_display_(/*45.23*/routes/*45.29*/.HomeController.playtime()),format.raw/*45.55*/("""">Next</a></li>
+       <li><a href=""""),_display_(/*53.22*/routes/*53.28*/.HomeController.membership()),format.raw/*53.56*/("""">Previous</a></li>
+        <li><a href=""""),_display_(/*54.23*/routes/*54.29*/.HomeController.playtime()),format.raw/*54.55*/("""">Next</a></li>
       </ul>
     </div>
 
@@ -94,11 +103,11 @@ Seq[Any](format.raw/*1.18*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Thu Apr 12 21:27:57 IST 2018
+                  DATE: Thu Apr 19 16:52:09 IST 2018
                   SOURCE: /home/wdd/webapps/webappsyear2/app/views/contact.scala.html
-                  HASH: b64894b7bbf932f7a88742ef731eef530c28b88d
-                  MATRIX: 950->1|1061->17|1090->21|1116->39|1155->41|1188->48|1638->471|1653->477|1718->521|1790->566|1805->572|1926->671|1989->707|2004->713|2070->758|2147->808|2162->814|2260->891|2859->1463|2874->1469|2918->1492|3025->1572|3040->1578|3089->1606|3158->1648|3173->1654|3220->1680
-                  LINES: 28->1|33->1|35->3|35->3|35->3|38->6|45->13|45->13|45->13|49->17|49->17|49->17|50->18|50->18|50->18|53->21|53->21|53->21|74->42|74->42|74->42|76->44|76->44|76->44|77->45|77->45|77->45
+                  HASH: 462c900460b794b702e1d26e00b701eae3b0ad3a
+                  MATRIX: 950->1|1061->17|1090->21|1116->39|1155->41|1184->44|1683->516|1698->522|1761->564|2229->1005|2244->1011|2309->1055|2381->1100|2396->1106|2517->1205|2580->1241|2595->1247|2661->1292|2738->1342|2753->1348|2851->1425|3450->1997|3465->2003|3509->2026|3616->2106|3631->2112|3680->2140|3749->2182|3764->2188|3811->2214
+                  LINES: 28->1|33->1|35->3|35->3|35->3|36->4|44->12|44->12|44->12|54->22|54->22|54->22|58->26|58->26|58->26|59->27|59->27|59->27|62->30|62->30|62->30|83->51|83->51|83->51|85->53|85->53|85->53|86->54|86->54|86->54
                   -- GENERATED --
               */
           

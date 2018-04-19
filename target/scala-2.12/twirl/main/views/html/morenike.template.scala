@@ -32,21 +32,30 @@ object morenike extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.H
 
 Seq[Any](format.raw/*1.18*/(""" 
  """),_display_(/*2.3*/main("Playtime")/*2.19*/ {_display_(Seq[Any](format.raw/*2.21*/("""
-
-    """),format.raw/*4.5*/("""<img src=""""),_display_(/*4.16*/routes/*4.22*/.Assets.versioned("images/photo/morelogo.png")),format.raw/*4.68*/("""" alt" Books inside box"/>
+  """),format.raw/*3.3*/("""<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href=""""),_display_(/*11.35*/routes/*11.41*/.Assets.versioned("stylesheets/books.css")),format.raw/*11.83*/("""">
+  </head>
+    <img src=""""),_display_(/*13.16*/routes/*13.22*/.Assets.versioned("images/photo/morelogo.png")),format.raw/*13.68*/("""" alt" Books inside box"/>
     
    <h3> Listen to Morenike on Syllables ...Below</h3><strong>
    <br>	 
      <audio controls>
-<source src=""""),_display_(/*9.15*/routes/*9.21*/.Assets.versioned("images/photo/aud.ogg")),format.raw/*9.62*/("""" type="audio/ogg">
-<source src=""""),_display_(/*10.15*/routes/*10.21*/.Assets.versioned("images/photo/aud.mp3")),format.raw/*10.62*/("""" type="audio/mpeg">
+<source src=""""),_display_(/*18.15*/routes/*18.21*/.Assets.versioned("images/photo/aud.ogg")),format.raw/*18.62*/("""" type="audio/ogg">
+<source src=""""),_display_(/*19.15*/routes/*19.21*/.Assets.versioned("images/photo/aud.mp3")),format.raw/*19.62*/("""" type="audio/mpeg">
    
 </audio>
 <h3> Expressions...</h3><strong>
    <br>	 
      <audio controls>
-<source src="e"""),_display_(/*16.16*/routes/*16.22*/.Assets.versioned("images/photo/xpression1.ogg")),format.raw/*16.70*/("""" type="audio/ogg">
-<source src=""""),_display_(/*17.15*/routes/*17.21*/.Assets.versioned("images/photo/expression1.mp3")),format.raw/*17.70*/("""" type="audio/mpeg">
+<source src="e"""),_display_(/*25.16*/routes/*25.22*/.Assets.versioned("images/photo/xpression1.ogg")),format.raw/*25.70*/("""" type="audio/ogg">
+<source src=""""),_display_(/*26.15*/routes/*26.21*/.Assets.versioned("images/photo/expression1.mp3")),format.raw/*26.70*/("""" type="audio/mpeg">
 
 
 
@@ -66,11 +75,11 @@ Seq[Any](format.raw/*1.18*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Thu Apr 12 16:54:33 IST 2018
+                  DATE: Thu Apr 19 16:52:09 IST 2018
                   SOURCE: /home/wdd/webapps/webappsyear2/app/views/morenike.scala.html
-                  HASH: e3e1ee6f81d7b8fa5d221e7b977d42f69b4761a9
-                  MATRIX: 951->1|1062->17|1091->21|1115->37|1154->39|1186->45|1223->56|1237->62|1303->108|1469->248|1483->254|1544->295|1605->329|1620->335|1682->376|1823->490|1838->496|1907->544|1968->578|1983->584|2053->633
-                  LINES: 28->1|33->1|34->2|34->2|34->2|36->4|36->4|36->4|36->4|41->9|41->9|41->9|42->10|42->10|42->10|48->16|48->16|48->16|49->17|49->17|49->17
+                  HASH: 9110a69026805ab70a7ca3596cf50ac3b0fd10c0
+                  MATRIX: 951->1|1062->17|1091->21|1115->37|1154->39|1183->42|1682->514|1697->520|1760->562|1815->590|1830->596|1897->642|2064->782|2079->788|2141->829|2202->863|2217->869|2279->910|2420->1024|2435->1030|2504->1078|2565->1112|2580->1118|2650->1167
+                  LINES: 28->1|33->1|34->2|34->2|34->2|35->3|43->11|43->11|43->11|45->13|45->13|45->13|50->18|50->18|50->18|51->19|51->19|51->19|57->25|57->25|57->25|58->26|58->26|58->26
                   -- GENERATED --
               */
           

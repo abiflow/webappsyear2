@@ -31,16 +31,25 @@ object donation extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.H
 
 
 Seq[Any](format.raw/*1.18*/(""" 
-"""),format.raw/*2.1*/(""") """),_display_(/*2.4*/main("Donation")/*2.20*/ {_display_(Seq[Any](format.raw/*2.22*/("""
+"""),_display_(/*2.2*/main("Donation")/*2.18*/ {_display_(Seq[Any](format.raw/*2.20*/("""
+    """),format.raw/*3.5*/("""<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href=""""),_display_(/*11.37*/routes/*11.43*/.Assets.versioned("stylesheets/books.css")),format.raw/*11.85*/("""">
+    </head>
 
 
 
-
-"""),format.raw/*7.1*/("""<img src=""""),_display_(/*7.12*/routes/*7.18*/.Assets.versioned("images/photo/donatediffe.png")),format.raw/*7.67*/("""" alt " Donate makes a difference"/>
+<img src=""""),_display_(/*16.12*/routes/*16.18*/.Assets.versioned("images/photo/donatediffe.png")),format.raw/*16.67*/("""" alt " Donate makes a difference"/>
 
 <h2> Donate Books </h2>
 <p>
-    <img src=""""),_display_(/*11.16*/routes/*11.22*/.Assets.versioned("images/photo/box.png")),format.raw/*11.63*/("""" alt " Books inside box"/>
+    <img src=""""),_display_(/*20.16*/routes/*20.22*/.Assets.versioned("images/photo/box.png")),format.raw/*20.63*/("""" alt " Books inside box"/>
 </p>
 <h3>Books For Nigeria Schools In Africa needs all book donations. </h3>
 <br> Two for One- Donate £1 / $1 for every two books donated to us.</br>
@@ -62,7 +71,7 @@ Seq[Any](format.raw/*1.18*/("""
     <h2> Donate Fund </h2>
 
     <p>
-        <img src=""""),_display_(/*33.20*/routes/*33.26*/.Assets.versioned("images/photo/donate.png")),format.raw/*33.70*/("""" alt " Books inside box"/>
+        <img src=""""),_display_(/*42.20*/routes/*42.26*/.Assets.versioned("images/photo/donate.png")),format.raw/*42.70*/("""" alt " Books inside box"/>
     </p>
 
     <p>You can also mail a check, cash or money order to:</p>
@@ -78,8 +87,8 @@ Seq[Any](format.raw/*1.18*/("""
 <div class="payment">
     <p>Or make a donation online. </p>
     <li class="img">
-        <img src=""""),_display_(/*49.20*/routes/*49.26*/.Assets.versioned("images/photo/payment.png")),format.raw/*49.71*/("""" alt " payment method"/>
-        <img src=""""),_display_(/*50.20*/routes/*50.26*/.Assets.versioned("images/photo/creditcardicons.png")),format.raw/*50.79*/("""" alt " payment method"/>
+        <img src=""""),_display_(/*58.20*/routes/*58.26*/.Assets.versioned("images/photo/payment.png")),format.raw/*58.71*/("""" alt " payment method"/>
+        <img src=""""),_display_(/*59.20*/routes/*59.26*/.Assets.versioned("images/photo/creditcardicons.png")),format.raw/*59.79*/("""" alt " payment method"/>
     </li>
 </div>
 <div class="don_text">
@@ -108,11 +117,11 @@ Seq[Any](format.raw/*1.18*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Thu Apr 12 16:54:33 IST 2018
+                  DATE: Thu Apr 19 16:52:09 IST 2018
                   SOURCE: /home/wdd/webapps/webappsyear2/app/views/donation.scala.html
-                  HASH: d5282c58be3060a051b393b2ce6c46748c78ad01
-                  MATRIX: 951->1|1062->17|1090->19|1118->22|1142->38|1181->40|1212->45|1249->56|1263->62|1332->111|1440->192|1455->198|1517->239|2072->767|2087->773|2152->817|2591->1229|2606->1235|2672->1280|2744->1325|2759->1331|2833->1384
-                  LINES: 28->1|33->1|34->2|34->2|34->2|34->2|39->7|39->7|39->7|39->7|43->11|43->11|43->11|65->33|65->33|65->33|81->49|81->49|81->49|82->50|82->50|82->50
+                  HASH: 84dba490b3cea0fae2465178b4da8f12068d0648
+                  MATRIX: 951->1|1062->17|1090->20|1114->36|1153->38|1184->43|1699->531|1714->537|1777->579|1833->608|1848->614|1918->663|2026->744|2041->750|2103->791|2658->1319|2673->1325|2738->1369|3177->1781|3192->1787|3258->1832|3330->1877|3345->1883|3419->1936
+                  LINES: 28->1|33->1|34->2|34->2|34->2|35->3|43->11|43->11|43->11|48->16|48->16|48->16|52->20|52->20|52->20|74->42|74->42|74->42|90->58|90->58|90->58|91->59|91->59|91->59
                   -- GENERATED --
               */
           
