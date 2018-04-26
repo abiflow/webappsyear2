@@ -16,3 +16,8 @@ cd /home/wdd/webapps/webappsyear2/
 cd../home/wdd/webapps/webappsyear2/
 git add .
 sbt run 
+clean 
+compile
+clean 
+compile
+compile 
